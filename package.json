@@ -7,7 +7,7 @@
   "scripts": {
     "build": "nuxi build",
     "dev:pwa": "VITE_PLUGIN_PWA=true nuxi dev",
-    "dev": "nuxi dev -p 3008",
+    "dev": "nuxi dev -p",
     "generate": "nuxi generate",
     "postinstall": "nuxi prepare",
     "start": "node .output/server/index.mjs",

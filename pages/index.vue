@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { Chart, HelloWorld } from '@dcyjs/materials'
-import { CardWrap, GraphicsEditor, PdfPreview, Qrcode, RichText } from '@dcyjs/materials/client'
+import { CardWrap, GraphicsEditor, Qrcode, RichText } from '@dcyjs/materials/client'
 import { downloadFormUrl } from '@dcyjs/utils'
 import { useFetcher } from '@dcyjs/network'
 import { getTodo } from '@/services'
@@ -181,7 +181,6 @@ function onDownload() {
         <div class="my-2">
           PDF预览组件
         </div>
-        <PdfPreview class="w-[600px]" url="http://static.shanhuxueyuan.com/test.pdf" />
       </div>
     </ClientOnly>
     <ClientOnly>
